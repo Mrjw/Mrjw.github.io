@@ -1,0 +1,42 @@
+# Site settings
+title: 学海无涯
+description: 一个很全面的学习平台 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://baixin.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: CodingDay
+user_description: 提供学习额平台
+email: 469727432@qq.com
+twitter_username: leopardpan
+github_username:  leopardpan
+gplus_username:  leopardpan
+disqus_username: leopardpan
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
